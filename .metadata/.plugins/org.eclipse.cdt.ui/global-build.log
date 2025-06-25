@@ -1,0 +1,18 @@
+19:35:55 **** Incremental Build of configuration Debug for project 9_ADC_interrupt ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"D:/bitsilica2/STM/Workspace2/9_ADC_interrupt/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"D:/bitsilica2/STM/Workspace2/9_ADC_interrupt/Drivers/STM32L4xx_HAL_Driver/Inc" -I"D:/bitsilica2/STM/Workspace2/9_ADC_interrupt/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/adc.d" -MT"Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/adc.o"
+../Src/adc.c: In function 'adc_single_conv_init':
+../Src/adc.c:89:17: warning: implicit declaration of function '__HAL_RCC_ADC1_CLK_ENABLE' [-Wimplicit-function-declaration]
+   89 |                 __HAL_RCC_ADC1_CLK_ENABLE();
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "9_ADC_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\bitsilica2\STM\Workspace2\9_ADC_interrupt\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="9_ADC_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 9_ADC_interrupt.elf
+ 
+arm-none-eabi-size  9_ADC_interrupt.elf 
+arm-none-eabi-objdump -h -S 9_ADC_interrupt.elf  > "9_ADC_interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+  15428	    104	   2144	  17676	   450c	9_ADC_interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: 9_ADC_interrupt.list
+ 

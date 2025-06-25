@@ -1,0 +1,9 @@
+D:/bitsilica2/STM/Workspace2/9_ADC_interrupt/Drivers/CMSIS/Include/core_cm4.h:1679:22:__NVIC_EnableIRQ	2
+D:/bitsilica2/STM/Workspace2/9_ADC_interrupt/Drivers/CMSIS/Include/core_cm4.h:1809:22:__NVIC_SetPriority	2
+../Src/adc.c:18:10:pc0_adc_read	1
+../Src/adc.c:22:6:adc_init_start	1
+../Src/adc.c:29:6:adc_cont_conv_init	1
+../Src/adc.c:72:6:adc_single_conv_init	1
+../Src/adc.c:115:6:adc_interrupt_conv_init	1
+../Src/adc.c:160:6:adc_DMA_init	1
+../Src/adc.c:207:6:ADC_IRQHandler	1

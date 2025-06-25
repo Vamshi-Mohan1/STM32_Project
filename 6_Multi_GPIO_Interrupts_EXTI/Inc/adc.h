@@ -1,0 +1,15 @@
+/*
+ * adc.h
+ *
+ *  Created on: Jun 24, 2025
+ *      Author: Vamshi
+ */
+
+#ifndef ADC_H_
+#define ADC_H_
+
+#include <stm32l4xx_hal_rcc.h>
+
+void adc_cont_conv_init(void);
+
+#endif /* ADC_H_ */

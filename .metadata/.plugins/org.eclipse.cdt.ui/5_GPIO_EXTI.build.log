@@ -1,0 +1,17 @@
+17:45:34 **** Incremental Build of configuration Debug for project 5_GPIO_EXTI ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"D:/bitsilica2/STM/Workspace2/5_GPIO_EXTI/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"D:/bitsilica2/STM/Workspace2/5_GPIO_EXTI/Drivers/STM32L4xx_HAL_Driver/Inc" -I"D:/bitsilica2/STM/Workspace2/5_GPIO_EXTI/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "5_GPIO_EXTI.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\bitsilica2\STM\Workspace2\5_GPIO_EXTI\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="5_GPIO_EXTI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 5_GPIO_EXTI.elf
+ 
+arm-none-eabi-size  5_GPIO_EXTI.elf 
+arm-none-eabi-objdump -h -S 5_GPIO_EXTI.elf  > "5_GPIO_EXTI.list"
+   text	   data	    bss	    dec	    hex	filename
+   2556	     12	   1564	   4132	   1024	5_GPIO_EXTI.elf
+Finished building: default.size.stdout
+ 
+Finished building: 5_GPIO_EXTI.list
+ 
+
+17:45:37 Build Finished. 0 errors, 0 warnings. (took 3s.516ms)
+

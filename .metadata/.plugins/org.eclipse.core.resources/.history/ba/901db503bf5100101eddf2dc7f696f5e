@@ -1,0 +1,64 @@
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o: \
+ ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
+ ../Inc/stm32l4xx_hal_conf.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/core_cm4.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/cmsis_version.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/cmsis_compiler.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/cmsis_gcc.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/mpu_armv7.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_adc.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_adc.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_adc_ex.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_usart.h \
+ D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_usart_ex.h
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
+../Inc/stm32l4xx_hal_conf.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/core_cm4.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/cmsis_version.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/cmsis_compiler.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/cmsis_gcc.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Include/mpu_armv7.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_adc.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_adc.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_adc_ex.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_usart.h:
+D:/bitsilica2/STM/WorkSpace/4_ADC_ContinuosConvertion/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_usart_ex.h:
